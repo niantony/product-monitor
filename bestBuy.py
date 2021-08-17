@@ -18,6 +18,7 @@ with open('proxies.txt') as f:
         proxyList.append(proxyHTTP)
 proxyCount = len(proxyList)
 
+# Monitoring
 while True:
     with open('bestBuySkus.txt') as f:
             # Parsing through the skus
